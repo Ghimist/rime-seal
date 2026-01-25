@@ -6,7 +6,7 @@ schema:
   name: 篆
   version: '0.1'
   author:
-    - @himist
+    - Ghimist
     - 三蒼法師 <https://github.com/lotem>
   description: |
     三碼蒼頡，由雪齋、惜緣等整理的蒼頡六代構詞碼碼表
@@ -102,8 +102,8 @@ recognizer:
     punct: '^/([0-9]0?|[A-Za-z]+)$'
     reverse_lookup: "`[a-z]*'?$"
 
-__patch:
-  # 使用八股文語言模型
-  - grammar:/hant?
-  # 用家自選配置
-  - sancang.custom:/patch?
+# __patch:
+  # # 使用八股文語言模型
+  # - grammar:/hant?
+  # # 用家自選配置
+  # - sancang.custom:/patch?

@@ -16,6 +16,16 @@ schema:
   dependencies:
     - sancang
 
+font_face:
+  label_font_face:
+    preedit_font_face: "Seal Sans : 30000 : 3FC3F"
+    comment_font_face: "Seal Sans : 30000 : 3FC3F"
+style:
+  label_font_face: "Seal Sans"
+  label_font_point: "Seal Sans"
+  comment_font_face: "30000:3FC3F"
+  label_font_point: "30000:3FC3F"
+
 switches:
   - name: ascii_mode
     reset: 0

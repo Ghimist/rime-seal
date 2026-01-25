@@ -10,4 +10,5 @@ max_phrase_length: 7
 min_phrase_weight: 100
 import_tables:
   - seal_sancang
+  - seal_sancangd
 ...

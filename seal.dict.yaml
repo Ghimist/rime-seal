@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 ---
-name: seal_sancang
+name: seal
 version: '0.1'
 sort: by_weight
 use_preset_vocabulary: true

@@ -6,7 +6,7 @@ schema:
   name: 篆
   version: '0.1'
   author:
-    - Ghimist
+    - Ghimist <https://github.com/Ghimist>
     - 三蒼法師 <https://github.com/lotem>
   description: |
     三碼蒼頡，由雪齋、惜緣等整理的蒼頡六代構詞碼碼表
@@ -15,16 +15,6 @@ schema:
     Ghimist映射小篆區塊依據<https://www.unicode.org/wg2/docs/n5344R-SmallSealProposal.pdf>
   dependencies:
     - sancang
-
-font_face:
-  label_font_face:
-    preedit_font_face: "Seal Sans : 30000 : 3FC3F"
-    comment_font_face: "Seal Sans : 30000 : 3FC3F"
-style:
-  label_font_face: "Seal Sans"
-  label_font_point: "Seal Sans"
-  comment_font_face: "30000:3FC3F"
-  label_font_point: "30000:3FC3F"
 
 switches:
   - name: ascii_mode
@@ -106,4 +96,12 @@ recognizer:
   # # 使用八股文語言模型
   # - grammar:/hant?
   # # 用家自選配置
-  # - sancang.custom:/patch?
+  # - seal.custom:/patch?
+  # style/label_font_face: "Seal Sans"
+  # style/label_font_point: "30000:3FC3F"
+  # style/comment_font_face: "Seal Sans"
+  # style/label_font_point: "30000:3FC3F"
+  # font_face:
+    # label_font_face:
+      # preedit_font_face: "Seal Sans:30000:3FC3F"
+      # comment_font_face: "Seal Sans:30000:3FC3F"

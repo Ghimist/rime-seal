@@ -92,16 +92,19 @@ recognizer:
     punct: '^/([0-9]0?|[A-Za-z]+)$'
     reverse_lookup: "`[a-z]*'?$"
 
-# __patch:
-  # # 使用八股文語言模型
-  # - grammar:/hant?
-  # # 用家自選配置
-  # - seal.custom:/patch?
-  # style/label_font_face: "Seal Sans"
-  # style/label_font_point: "30000:3FC3F"
-  # style/comment_font_face: "Seal Sans"
-  # style/label_font_point: "30000:3FC3F"
-  # font_face:
-    # label_font_face:
-      # preedit_font_face: "Seal Sans:30000:3FC3F"
-      # comment_font_face: "Seal Sans:30000:3FC3F"
+style:
+  label_font_face: "Seal Sans:30000:3FC3F:normal:normal"
+  comment_font_face: "Seal Sans:30000:3FC3F:normal:normal"
+  font_face: "Seal Sans:30000:3FC3F:bold:normal"
+  label_font_point: 16
+  comment_font_point: 24
+  font_point: 32
+  # thin|extra_light|ultra_light|light|semi_light|medium|demi_bold|semi_bold|bold|extra_bold|ultra_bold|black|heavy|extra_black|ultra_black|normal
+  # italic|oblique|normal
+
+__patch:
+  # 使用八股文語言模型
+  - grammar:/hant?
+  # 用家自選配置
+  - seal.custom:/patch?
+
